@@ -29,6 +29,7 @@ if (Notification.permission == 'granted') {
             // TODO 5.1 - add a tag to the notification
 
         };
+        console.log(reg)
 
         reg.showNotification('Hello world!', options);
     });
